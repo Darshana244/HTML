@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+       <h3 align="center">Login details</h3>
+       <form action="php.backend" method="post">
+            <table align="center">
+                <tr>
+                    <td><label for="Name">Name</label></td>
+                    <td><input type="text" name="full name" id="Name" placeholder="Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="Email">Email</label></td>
+                    <td><input type="email" name="Email" id="Email" placeholder="abc154@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="Password">Password</label></td>
+                    <td><input type="password" name="enter password" id="Password" placeholder="enter password"></td>
+                </tr>
+                <tr>
+                    <td><button type="reset" name="Reset">Reset</button></td>
+                    <td><button type="submit" name="Submit">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Your feedback</legend>
+        <form action="" method="post"></form>
+        <table>
+            <tr>
+                <td>Please check all the emotions that apply to you:</td>
+            </tr>
+            <tr><ul>
+                <td>
+                    <li>Angry <input type="radio" name="Please check all the emotions that apply to you:" id=""></li>
+                    <li>Sad <input type="radio" name="Please check all the emotions that apply to you:" id=""></li>
+                    <li>Happy <input type="radio" name="Please check all the emotions that apply to you:" id=""></li>
+                    <li>ambivalent <input type="radio" name="Please check all the emotions that apply to you:" id=""></li>
+                </td>
+                </ul>
+            </tr>
+            <tr>
+                <td>How satisfied are you with our services?</td>
+            </tr>
+            <tr><ul>
+                <td>
+                    <li>Very Satisfied <input type="radio" name="How satisfied are you with our services?" id=""></li>
+                    <li>Satisfied <input type="radio" name="How satisfied are you with our services?" id=""></li>
+                    <li>Didn't Care <input type="radio" name="How satisfied are you with our services?" id=""></li>
+                    <li>Dissatisfied <input type="radio" name="How satisfied are you with our services?" id=""></li>
+                    <li>Very Dissatisfied <input type="radio" name="How satisfied are you with our services?" id=""></li>
+                </td>
+                </ul>
+            </tr>
+            <tr>
+                <td><label for="Further Comment">Further Comment</label></td>
+                <td><textarea name="Further Comment" id="" cols="30" rows="3" placeholder="comment..."></textarea></td>
+            </tr>
+            <tr>
+                <td><button type="reset" name="Reset">Reset</button></td>
+                <td><button type="submit" name="Submit">Submit</button></td>
+            </tr>
+        </table>
+    </fieldset>
+
+</body>
+</html>
