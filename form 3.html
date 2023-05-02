@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+
+    <style>
+        form{
+            background-color: burlywood;
+        }
+        input{
+            border-color: cornflowerblue; color: rgb(110, 130, 194);
+        }
+        textarea{
+            border-color: cornflowerblue; color: rgb(110, 130, 194);
+        }
+        select{
+            border-color: cornflowerblue; color: rgb(110, 130, 194);
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+      <fieldset>
+        <h1 align="center">Parent Contact Form</h1>
+        <ul>
+            <li><label for="Contact Me About">Contact Me About</label>
+               <br><input type="radio" name="Contact Me About" id="Bring right at my school">Bring right at my school
+               <br><input type="radio" name="Contact Me About" id="More information">More information</li>
+        </ul>
+        <ul>
+            <li>
+                <label for="Program Interest">Program Interest</label>
+                <br><input type="radio" name="Programme Interest" id="Before & After School Programs">Before & After School Programs
+                <br><input type="radio" name="Programme Interest" id="After School Enrichment Classes">After School Enrichment Classes
+                <br><input type="radio" name="Programme Interest" id="Fifth Day Program">Fifth Day Program
+                <br><input type="radio" name="Programme Interest" id="Summer Program">Summer Program
+            </li>
+        </ul>
+        <ul>
+            <li><label for="Name">Name</label></li>
+            <input type="text" name="Name" id="First Name" placeholder="First Name" required> <input required type="text" name="Name" id="Last Name" placeholder="Last Name">
+            <li><label for="Email">Email</label></li>
+            <input required type="email" name="" id="Email">
+            <li><label for="Phone">Phone</label></li>
+            <input required type="tel" name="Phone" id="Phone">
+            <li><label for="Child's School Name">Child's School Name</label></li>
+            <input required type="text" name="Child's School Name" id="Child's School Name">
+            <li><label for="How You Hear About Us?"></label>How You Hear About Us?</li>
+            <select required name="How You Hear About Us?" id="" multiple>
+                <option value="none">Please select</option>
+                <option value="Fellow Parents">Fellow Parents</option>
+                <option value="Word of mouth">Word of mouth</option>
+                <option value="Search Engine">Search Engine</option>
+                <option value="News Articles">News Articles</option>
+            </select>
+            <li><label for="Comment / Message">Comment / Message</label></li>
+            <textarea required name="Comment / Message" id="" cols="40" rows="5"></textarea>
+        </ul>
+        <input type="submit" value="Send">
+
+      </fieldset>   
+    </form>
+</body>
+</html>
