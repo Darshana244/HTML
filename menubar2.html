@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menubar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+            background-color: rgb(193, 231, 87);
+        }
+        .conteiner{
+            width: 1080px;
+            margin: 0 auto;
+        }
+        nav{
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+            /* line-height: 80px; */
+            align-items: center;
+        }
+        .logo h1{
+            font-size: 50px;
+            color: white;
+        }
+        i{
+            font-size: 50px;
+            color: white;
+        }
+        ul li{
+            display: inline-block;
+            margin: 0 20px;
+        }
+        a{
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        a:hover{
+            color: yellow;
+            /* border: none; */
+            border-radius: 30%;
+        }
+    </style>
+</head>
+<body>
+
+
+    <section>
+        <header>
+            <div class="conteiner">
+                <nav>
+                    <div class="logo">
+                        <h1>Amazon</h1>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Food</a></li>                      
+                            <li><a href="#">Drinks</a></li>
+                            <li><a href="#">Add on</a></li>                            
+                            <li><a href="#">About</a></li>
+                           <li><a href="#">Order Now</a></li>
+                        </ul>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </section>
+
+
+</body>
+</html>
