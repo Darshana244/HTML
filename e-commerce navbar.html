@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        *{
+            margin: 10px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            border-bottom: 2px solid;
+            border-color: rgb(204, 200, 200);
+        }
+        .row{
+            display: flex;  
+        }
+        .logo img{
+            width:100px ;
+        }
+        .link ul li {
+            display: inline-block;
+            padding: 0 20px ;
+        }
+        .justify{
+            justify-content: space-between;
+        }
+        .align{
+            align-items: center;
+        }
+        a{
+            color: rgb(17, 17, 17);
+            text-decoration: none;
+        }
+        i{
+            color: rgb(17, 17, 17);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row justify align">
+                <div class="col">
+                    <div class="row align">
+                        <div class="col">
+                            <div class="logo">
+                                <img src=".//IMAGE/th.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="link">
+                                <ul>
+                                    <li><a href="#">Hosting<i class="fa-solid fa-chevron-down"></i></a></li>
+                                    <li><a href="#">VPS<i class="fa-solid fa-chevron-down"></i></a></li>
+                                    <li><a href="#">Email<i class="fa-solid fa-chevron-down"></i></a></li>
+                                    <li><a href="#">Domain<i class="fa-solid fa-chevron-down"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <button>login</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+</body>
+</html> 
+
+
+
+

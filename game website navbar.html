@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGame navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        
+        *{
+            margin: 0px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        div h1{
+            width: 50px;
+            /* display: flex; */
+        }
+        section{
+            background-color: #0065A0;
+            display: flex;
+        } 
+        ul li{
+            display: inline-block;
+            margin: 0 20px;
+        }
+        .container{
+            margin: 0 auto;
+            width: 1000px;
+        }
+        
+        a{
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        a:hover{
+            color: greenyellow;
+        }
+        i{
+            font-size: 40px;
+            color: rgb(225, 225, 235);
+        }
+        .search img{
+           width: 40px;
+           height: 40px;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            /* flex-wrap: wrap; */
+        }
+        .search input{
+            padding: 20px;
+            font-size: 20px;
+        }
+        .search button{
+            font-size: 25px;
+            border-radius: 20%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <section>
+        <header>
+            <nav>
+            <div class="container">
+                <h1><img src="https://agamecdn.com/assets/agame/agame.en.desktop-a5a4106f370c0283bf800719c6ea9276fa65aebe0bbb4af128e8cbaa0057ede6.webp"
+                        alt=""></h1>
+            </div>
+                <div class="options">
+                    <ul>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Puzzle</a></li>
+                        <li><a href="#">Multiplayer</a></li>
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Racing</a></li>
+                        <li><a href="#">Advanture</a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">For you</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <!-- <input type="search" name="Search for Games" id="" placeholder="Search for Games"> -->
+                    <button type="submit">Search for Games<i class="fa-solid fa-magnifying-glass"></i></button>
+                    
+                </div>
+            </nav>
+        </header>
+    </section>
+
+
+</body>
+
+</html>
